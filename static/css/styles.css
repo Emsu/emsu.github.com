@@ -1,0 +1,153 @@
+/* Colors */
+/* Media Query Breakpoints */
+/* line 15 */
+body {
+  /* Decorative top bar styling */
+  margin-top: 10px;
+  background: #fff url("/static/img/bg.png") repeat-x;
+  background-size: 100% 4px;
+  color: #666;
+  max-width: 480px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 320px) {
+  /* line 15 */
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* line 35 */
+#info {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* line 40 */
+#about {
+  max-width: 250px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 51 */
+#social {
+  font-size: 20px;
+  text-align: center;
+  color: #efefef;
+}
+/* line 56 */
+#social a {
+  padding: 5px;
+  color: black;
+}
+
+/* line 62 */
+#posts, #projects {
+  margin-top: 60px;
+}
+@media screen and (max-width: 320px) {
+  /* line 62 */
+  #posts, #projects {
+    margin-top: 60px;
+  }
+}
+/* line 69 */
+#posts a, #posts a:visited, #posts a:hover, #posts a:active, #projects a, #projects a:visited, #projects a:hover, #projects a:active {
+  padding-bottom: 1px;
+  color: #404040;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+}
+/* line 76 */
+#posts a:hover, #projects a:hover {
+  border-bottom: 1px dotted #666;
+  color: #101010;
+}
+
+/* line 82 */
+.section-header {
+  font-size: 1.1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  font-variant: small-caps;
+  border-bottom: 1px solid #bbb;
+}
+
+/* line 91 */
+.unstyled-list {
+  padding: 0;
+}
+/* line 94 */
+.unstyled-list li {
+  list-style: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* line 101 */
+.page-not-found {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* line 106 */
+.entry-date {
+  float: right;
+  color: #ccc;
+}
+@media screen and (max-width: 320px) {
+  /* line 106 */
+  .entry-date {
+    display: block;
+    float: none;
+    font-size: 10px;
+  }
+}
+
+/* line 117 */
+.project-list-item {
+  margin-top: 20px;
+}
+/* line 120 */
+.project-list-item p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 126 */
+.project-list-item:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+/* line 132 */
+.project-description {
+  font-size: 14px;
+}
+
+/* line 136 */
+.project-name {
+  margin: 0;
+}
+
+/* line 140 */
+.roles {
+  font-family: "Sacramento", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 144 */
+h3 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
